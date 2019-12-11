@@ -45,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E17E9F123A0D0860077A0D2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1EF7C50023A09BA50078C324 /* AppDelegate.swift */,
+				1EF7C50223A09BA50078C324 /* SceneDelegate.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		1EF7C4F423A09BA50078C324 = {
 			isa = PBXGroup;
 			children = (
@@ -64,13 +73,12 @@
 		1EF7C4FF23A09BA50078C324 /* Table View Practice */ = {
 			isa = PBXGroup;
 			children = (
+				1EF7C50E23A09BA70078C324 /* Info.plist */,
+				1EF7C50923A09BA70078C324 /* Assets.xcassets */,
+				1E17E9F123A0D0860077A0D2 /* Other */,
 				1EF7C52323A0B8D10078C324 /* Controller */,
 				1EF7C52223A0B8AB0078C324 /* View */,
 				1EF7C52123A0B8860078C324 /* Model */,
-				1EF7C50023A09BA50078C324 /* AppDelegate.swift */,
-				1EF7C50223A09BA50078C324 /* SceneDelegate.swift */,
-				1EF7C50923A09BA70078C324 /* Assets.xcassets */,
-				1EF7C50E23A09BA70078C324 /* Info.plist */,
 			);
 			path = "Table View Practice";
 			sourceTree = "<group>";

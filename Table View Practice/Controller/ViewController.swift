@@ -25,12 +25,21 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell
     }
     
-
+//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        self.performSegue(withIdentifier: "list2Single", sender: indexPath.row)
+//    }
+//    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let indexPath = tableView.indexPathForSelectedRow {
+            guard let destinationVC = segue.destination as? SingleViewController else {return}
+            let selectedRow = indexPath.row
+            destinationVC.indexVar = selectedRow
+        }
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
 }
-
